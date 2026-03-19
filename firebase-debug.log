@@ -1,0 +1,49 @@
+[debug] [2026-03-19T21:26:57.251Z] ----------------------------------------------------------------------
+[debug] [2026-03-19T21:26:57.253Z] Command:       /Users/arthurthompson/.nvm/versions/node/v20.12.2/bin/node /Users/arthurthompson/.nvm/versions/node/v20.12.2/bin/firebase init hosting:github
+[debug] [2026-03-19T21:26:57.253Z] CLI Version:   14.3.1
+[debug] [2026-03-19T21:26:57.253Z] Platform:      darwin
+[debug] [2026-03-19T21:26:57.253Z] Node Version:  v20.12.2
+[debug] [2026-03-19T21:26:57.253Z] Time:          Thu Mar 19 2026 14:26:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2026-03-19T21:26:57.253Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-19T21:26:57.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-19T21:26:57.341Z] > authorizing via signed-in user (arthur.thompson.jr@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/arthurthompson/src/kroikie-blog
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2026-03-19T21:26:57.343Z] Using project from CLI flag: kroikie-blog-site
+[debug] [2026-03-19T21:26:57.343Z] Checked if tokens are valid: true, expires at: 1773958795419
+[debug] [2026-03-19T21:26:57.343Z] Checked if tokens are valid: true, expires at: 1773958795419
+[debug] [2026-03-19T21:26:57.344Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kroikie-blog-site [none]
+[debug] [2026-03-19T21:26:57.616Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kroikie-blog-site 200
+[debug] [2026-03-19T21:26:57.616Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kroikie-blog-site {"projectId":"kroikie-blog-site","projectNumber":"244394072849","displayName":"Kroikie Blog","name":"projects/kroikie-blog-site","resources":{"hostingSite":"kroikie-blog-site"},"state":"ACTIVE","etag":"1_4c8580c9-0589-4e3a-9e4d-4805b4cfb96d"}
+[info] i  Using project kroikie-blog-site (Kroikie Blog) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /Users/arthurthompson/src/kroikie-blog 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=542703287&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...

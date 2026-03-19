@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: "Read my first post"
-      link: "/first-post"
+      link: "/posts/first-post"
     - theme: alt
       text: "View on GitHub"
       link: "https://github.com/kroikie-blog"
