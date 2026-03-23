@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "kroikie-blog"
+  name: "kroikie.dev"
   text: "A VitePress Site"
   tagline: "My awesome new blog"
   actions:
