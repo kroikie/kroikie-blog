@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "kroikie-blog",
-  description: "A VitePress Site",
+  title: "kroikie.dev",
+  description: "Imposter syndrome speaks.",
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
