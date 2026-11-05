@@ -2,12 +2,14 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "kroikie.dev",
-  description: "Imposter syndrome speaks.",
+  description: "Thoughts and field notes on building apps in the Agentic era.",
+  cleanUrls: true,
+  appearance: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
       { text: 'Posts', link: '/posts/first-post' },
+      { text: 'About', link: '/about' },
     ],
 
     sidebar: {
@@ -15,15 +17,14 @@ export default defineConfig({
         {
           text: 'Blog Posts',
           items: [
-            { text: 'My First Post', link: '/posts/first-post' },
-            { text: 'My Second Post', link: '/posts/second-post' },
+            { text: 'Building Apps in the Agentic Era', link: '/posts/first-post' },
           ]
         }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kroikie-blog' }
+      { icon: 'github', link: 'https://github.com/kroikie' }
     ]
   }
 })

@@ -3,21 +3,21 @@ layout: home
 
 hero:
   name: "kroikie.dev"
-  text: "A VitePress Site"
-  tagline: "My awesome new blog"
+  text: "Building Apps in the Agentic Era"
+  tagline: "Thoughts, patterns, and field notes on software engineering with AI agents."
   actions:
     - theme: brand
-      text: "Read my first post"
+      text: "Read the First Post"
       link: "/posts/first-post"
     - theme: alt
-      text: "View on GitHub"
-      link: "https://github.com/kroikie-blog"
+      text: "GitHub"
+      link: "https://github.com/kroikie"
 
 features:
-  - title: "Fast"
-    details: "Built with Vite and Vue."
-  - title: "Simple"
-    details: "Markdown-centered content."
-  - title: "Automated"
-    details: "Deployed automatically to Firebase Hosting."
+  - title: "Agentic Architecture"
+    details: "Designing and orchestrating multi-agent workflows, tool use, and human-in-the-loop experiences."
+  - title: "Practical Field Notes"
+    details: "Real-world lessons, patterns, and trade-offs from building modern applications with AI agents."
+  - title: "Modern App Craft"
+    details: "Exploring how engineering fundamentals evolve when autonomous agents become collaborators."
 ---
